@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\2303752\eclipse-workspace\CourcesIdentifier\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="ClickShowMore">ClickShowMore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="FillFormDetails">FillFormDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="GetErrorMsg">GetErrorMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="LanguageFilter">LanguageFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="LanguageResult">LanguageResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="Scroll">Scroll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="SendInput">SendInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="SubmitForm">SubmitForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="clearInput">clearInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="courseDuration">courseDuration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="courseRating">courseRating</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="courseResult">courseResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="courseSearch">courseSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="languageFilter">languageFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="languageLevellist">languageLevellist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="languagecount">languagecount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="languagelist">languagelist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="levelFilter">levelFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="navigateHome">navigateHome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="navigateIndustry">navigateIndustry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="pageInfo">pageInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.MainTestClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickShowMore">
+                  </a> <!-- ClickShowMore -->
+                  <span class="method-name">ClickShowMore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FillFormDetails">
+                  </a> <!-- FillFormDetails -->
+                  <span class="method-name">FillFormDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetErrorMsg">
+                  </a> <!-- GetErrorMsg -->
+                  <span class="method-name">GetErrorMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LanguageFilter">
+                  </a> <!-- LanguageFilter -->
+                  <span class="method-name">LanguageFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LanguageResult">
+                  </a> <!-- LanguageResult -->
+                  <span class="method-name">LanguageResult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scroll">
+                  </a> <!-- Scroll -->
+                  <span class="method-name">Scroll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SendInput">
+                  </a> <!-- SendInput -->
+                  <span class="method-name">SendInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubmitForm">
+                  </a> <!-- SubmitForm -->
+                  <span class="method-name">SubmitForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clearInput">
+                  </a> <!-- clearInput -->
+                  <span class="method-name">clearInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="courseDuration">
+                  </a> <!-- courseDuration -->
+                  <span class="method-name">courseDuration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="courseRating">
+                  </a> <!-- courseRating -->
+                  <span class="method-name">courseRating</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="courseResult">
+                  </a> <!-- courseResult -->
+                  <span class="method-name">courseResult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="courseSearch">
+                  </a> <!-- courseSearch -->
+                  <span class="method-name">courseSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="languageFilter">
+                  </a> <!-- languageFilter -->
+                  <span class="method-name">languageFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="languageLevellist">
+                  </a> <!-- languageLevellist -->
+                  <span class="method-name">languageLevellist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="languagecount">
+                  </a> <!-- languagecount -->
+                  <span class="method-name">languagecount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="languagelist">
+                  </a> <!-- languagelist -->
+                  <span class="method-name">languagelist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="levelFilter">
+                  </a> <!-- levelFilter -->
+                  <span class="method-name">levelFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateHome">
+                  </a> <!-- navigateHome -->
+                  <span class="method-name">navigateHome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateIndustry">
+                  </a> <!-- navigateIndustry -->
+                  <span class="method-name">navigateIndustry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pageInfo">
+                  </a> <!-- pageInfo -->
+                  <span class="method-name">pageInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2303752\eclipse-workspace\CourcesIdentifier\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;chrometest&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.MainTestClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- chrometest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">chrometest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">ClickShowMore</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FillFormDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetErrorMsg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LanguageFilter</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LanguageResult</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Scroll</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SendInput</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SubmitForm</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clearInput</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">courseDuration</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">courseRating</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">courseResult</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">courseSearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">languageFilter</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">languageLevellist</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">languagecount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">languagelist</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">levelFilter</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigateHome</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigateIndustry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">pageInfo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">LanguageFilter</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LanguageResult</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SendInput</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clearInput</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">courseSearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigateHome</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigateIndustry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">pageInfo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'navigateIndustry')
+data.setCell(0, 2, 'TestCases.MainTestClass')
+data.setCell(0, 3, 60081);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'courseSearch')
+data.setCell(1, 2, 'TestCases.MainTestClass')
+data.setCell(1, 3, 48949);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'navigateHome')
+data.setCell(2, 2, 'TestCases.MainTestClass')
+data.setCell(2, 3, 45552);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'courseResult')
+data.setCell(3, 2, 'TestCases.MainTestClass')
+data.setCell(3, 3, 11486);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'SendInput')
+data.setCell(4, 2, 'TestCases.MainTestClass')
+data.setCell(4, 3, 10895);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'languagelist')
+data.setCell(5, 2, 'TestCases.MainTestClass')
+data.setCell(5, 3, 10529);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'pageInfo')
+data.setCell(6, 2, 'TestCases.MainTestClass')
+data.setCell(6, 3, 5464);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'FillFormDetails')
+data.setCell(7, 2, 'TestCases.MainTestClass')
+data.setCell(7, 3, 5391);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'courseDuration')
+data.setCell(8, 2, 'TestCases.MainTestClass')
+data.setCell(8, 3, 5130);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'courseRating')
+data.setCell(9, 2, 'TestCases.MainTestClass')
+data.setCell(9, 3, 4141);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'clearInput')
+data.setCell(10, 2, 'TestCases.MainTestClass')
+data.setCell(10, 3, 3405);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ClickShowMore')
+data.setCell(11, 2, 'TestCases.MainTestClass')
+data.setCell(11, 3, 3334);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Scroll')
+data.setCell(12, 2, 'TestCases.MainTestClass')
+data.setCell(12, 3, 3087);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'LanguageFilter')
+data.setCell(13, 2, 'TestCases.MainTestClass')
+data.setCell(13, 3, 1546);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'languageLevellist')
+data.setCell(14, 2, 'TestCases.MainTestClass')
+data.setCell(14, 3, 1131);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'GetErrorMsg')
+data.setCell(15, 2, 'TestCases.MainTestClass')
+data.setCell(15, 3, 1118);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'SubmitForm')
+data.setCell(16, 2, 'TestCases.MainTestClass')
+data.setCell(16, 3, 1093);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'LanguageResult')
+data.setCell(17, 2, 'TestCases.MainTestClass')
+data.setCell(17, 3, 882);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'languageFilter')
+data.setCell(18, 2, 'TestCases.MainTestClass')
+data.setCell(18, 3, 795);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'levelFilter')
+data.setCell(19, 2, 'TestCases.MainTestClass')
+data.setCell(19, 3, 498);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'languagecount')
+data.setCell(20, 2, 'TestCases.MainTestClass')
+data.setCell(20, 3, 2);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.MainTestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(windows, edge)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">courseSearch</span>
+                <span class="method-start">206295 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pageInfo</span>
+                <span class="method-start">255562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">languageFilter</span>
+                <span class="method-start">261312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">levelFilter</span>
+                <span class="method-start">262307 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">courseResult</span>
+                <span class="method-start">263005 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">courseRating</span>
+                <span class="method-start">274758 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">courseDuration</span>
+                <span class="method-start">279231 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clearInput</span>
+                <span class="method-start">284622 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SendInput</span>
+                <span class="method-start">288476 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LanguageFilter</span>
+                <span class="method-start">299628 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LanguageResult</span>
+                <span class="method-start">301401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ClickShowMore</span>
+                <span class="method-start">302507 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">languagecount</span>
+                <span class="method-start">306117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">languagelist</span>
+                <span class="method-start">306344 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">languageLevellist</span>
+                <span class="method-start">317089 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">navigateHome</span>
+                <span class="method-start">318463 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">navigateIndustry</span>
+                <span class="method-start">364425 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scroll</span>
+                <span class="method-start">424985 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FillFormDetails</span>
+                <span class="method-start">428546 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SubmitForm</span>
+                <span class="method-start">434166 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetErrorMsg</span>
+                <span class="method-start">435614 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">436936 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

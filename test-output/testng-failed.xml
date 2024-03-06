@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="chrometest(failed)">
+    <parameter name="os" value="mac"/>
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="TestCases.MainTestClass">
+        <methods>
+          <include name="ClickShowMore"/>
+          <include name="pageInfo"/>
+          <include name="setup"/>
+          <include name="courseRating"/>
+          <include name="languageLevellist"/>
+          <include name="navigateHome"/>
+          <include name="languagelist"/>
+          <include name="navigateIndustry"/>
+          <include name="FillFormDetails"/>
+          <include name="courseSearch"/>
+          <include name="courseResult"/>
+          <include name="LanguageResult"/>
+          <include name="languageFilter"/>
+          <include name="clearInput"/>
+          <include name="Scroll"/>
+          <include name="SubmitForm"/>
+          <include name="tearDown"/>
+          <include name="LanguageFilter"/>
+          <include name="levelFilter"/>
+          <include name="SendInput"/>
+          <include name="languagecount"/>
+          <include name="GetErrorMsg"/>
+          <include name="courseDuration"/>
+        </methods>
+      </class> <!-- TestCases.MainTestClass -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

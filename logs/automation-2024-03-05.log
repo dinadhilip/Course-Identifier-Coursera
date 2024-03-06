@@ -1,0 +1,54 @@
+13:04:05.977 [TestNG-tests-1] INFO  TestCases.MainTestClass - Result for Languages
+13:04:15.679 [TestNG-tests-1] INFO  TestCases.MainTestClass - Result for Different Level
+13:04:17.382 [TestNG-tests-1] INFO  TestCases.MainTestClass - ******Navigate HomePage******
+13:04:26.390 [TestNG-tests-1] INFO  TestCases.MainTestClass - Navigate Enterprise Page
+13:04:42.487 [TestNG-tests-1] INFO  TestCases.MainTestClass - Fill form details using ExcelData
+13:04:46.592 [TestNG-tests-1] INFO  TestCases.MainTestClass - Print Error Message.....
+13:19:31.934 [TestNG-tests-1] INFO  TestCases.MainTestClass - *******Starting the HOMEPage********
+13:19:54.441 [TestNG-tests-1] INFO  TestCases.MainTestClass - PageInfo of WebdevelopmentCourse
+13:19:56.468 [TestNG-tests-1] INFO  TestCases.MainTestClass - Result for WebDevelopmentCourse
+13:20:08.084 [TestNG-tests-1] INFO  TestCases.MainTestClass - Rating for WebDevelopmentCourse
+13:20:14.455 [TestNG-tests-1] INFO  TestCases.MainTestClass - Duration for WebDevelopmentCourse
+13:20:21.261 [TestNG-tests-1] INFO  TestCases.MainTestClass - ***Search for LanguageLearning****
+13:20:34.001 [TestNG-tests-1] INFO  TestCases.MainTestClass - Result for LanguageLearningCourse
+13:20:39.690 [TestNG-tests-1] INFO  TestCases.MainTestClass - Result for Languages
+13:20:49.853 [TestNG-tests-1] INFO  TestCases.MainTestClass - Result for Different Level
+13:20:50.752 [TestNG-tests-1] INFO  TestCases.MainTestClass - ******Navigate HomePage******
+13:21:03.969 [TestNG-tests-1] INFO  TestCases.MainTestClass - Navigate Enterprise Page
+13:21:22.006 [TestNG-tests-1] INFO  TestCases.MainTestClass - Fill form details using ExcelData
+13:21:27.553 [TestNG-tests-1] INFO  TestCases.MainTestClass - Print Error Message.....
+13:24:01.766 [TestNG-tests-1] INFO  TestCases.MainTestClass - *******Starting the HOMEPage********
+13:24:22.707 [TestNG-tests-1] INFO  TestCases.MainTestClass - PageInfo of WebdevelopmentCourse
+13:24:24.667 [TestNG-tests-1] INFO  TestCases.MainTestClass - Result for WebDevelopmentCourse
+13:24:33.470 [TestNG-tests-1] INFO  TestCases.MainTestClass - Rating for WebDevelopmentCourse
+13:24:39.853 [TestNG-tests-1] INFO  TestCases.MainTestClass - Duration for WebDevelopmentCourse
+13:24:46.717 [TestNG-tests-1] INFO  TestCases.MainTestClass - ***Search for LanguageLearning****
+13:24:59.764 [TestNG-tests-1] INFO  TestCases.MainTestClass - Result for LanguageLearningCourse
+13:25:04.889 [TestNG-tests-1] INFO  TestCases.MainTestClass - Result for Languages
+13:25:08.096 [TestNG-tests-1] INFO  TestCases.MainTestClass - Result for Different Level
+13:25:08.275 [TestNG-tests-1] INFO  TestCases.MainTestClass - ******Navigate HomePage******
+13:25:12.499 [TestNG-tests-1] INFO  TestCases.MainTestClass - Navigate Enterprise Page
+13:25:35.866 [TestNG-tests-1] INFO  TestCases.MainTestClass - Fill form details using ExcelData
+13:25:52.593 [TestNG-tests-1] INFO  TestCases.MainTestClass - Print Error Message.....
+13:26:20.478 [TestNG-tests-1] INFO  TestCases.MainTestClass - *******Starting the HOMEPage********
+13:26:43.112 [TestNG-tests-1] INFO  TestCases.MainTestClass - PageInfo of WebdevelopmentCourse
+13:26:45.313 [TestNG-tests-1] INFO  TestCases.MainTestClass - Result for WebDevelopmentCourse
+13:26:56.486 [TestNG-tests-1] INFO  TestCases.MainTestClass - Rating for WebDevelopmentCourse
+13:27:02.860 [TestNG-tests-1] INFO  TestCases.MainTestClass - Duration for WebDevelopmentCourse
+13:27:09.767 [TestNG-tests-1] INFO  TestCases.MainTestClass - ***Search for LanguageLearning****
+13:27:22.670 [TestNG-tests-1] INFO  TestCases.MainTestClass - Result for LanguageLearningCourse
+13:27:27.762 [TestNG-tests-1] INFO  TestCases.MainTestClass - Result for Languages
+13:27:37.957 [TestNG-tests-1] INFO  TestCases.MainTestClass - Result for Different Level
+13:27:39.035 [TestNG-tests-1] INFO  TestCases.MainTestClass - ******Navigate HomePage******
+13:27:49.552 [TestNG-tests-1] INFO  TestCases.MainTestClass - Navigate Enterprise Page
+13:28:09.006 [TestNG-tests-1] INFO  TestCases.MainTestClass - Fill form details using ExcelData
+13:28:15.192 [TestNG-tests-1] INFO  TestCases.MainTestClass - Print Error Message.....
+17:13:39.644 [TestNG-tests-1] INFO  TestCases.MainTestClass - Result for WebDevelopmentCourse
+17:13:39.751 [TestNG-tests-1] INFO  TestCases.MainTestClass - Result for Languages
+17:13:39.787 [TestNG-tests-1] INFO  TestCases.MainTestClass - Result for Different Level
+17:13:39.796 [TestNG-tests-1] INFO  TestCases.MainTestClass - ******Navigate HomePage******
+17:13:44.858 [TestNG-tests-1] INFO  TestCases.MainTestClass - Fill form details using ExcelData
+17:13:48.473 [TestNG-tests-1] INFO  TestCases.MainTestClass - Print Error Message.....
+18:35:36.737 [TestNG-tests-1] INFO  TestCases.MainTestClass - *******Starting the HOMEPage********
+18:35:58.035 [TestNG-tests-1] INFO  TestCases.MainTestClass - PageInfo of WebdevelopmentCourse
+18:36:00.407 [TestNG-tests-1] INFO  TestCases.MainTestClass - Result for WebDevelopmentCourse
