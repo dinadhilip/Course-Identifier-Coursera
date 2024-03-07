@@ -1,6 +1,7 @@
 package PageObjects;
 
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -106,17 +107,20 @@ public class WebDevelopPage extends HomePage{
 		
 		Thread.sleep(3000);
 		
-		String[] words = duration1.split("·");
-		
-		Thread.sleep(2000);
-		System.out.println(words.length);
-		
-		String time=words[2];
-		System.out.println(time);
-		
-		String[] words1 = duration2.split("·");
-		String time1=words1[2];
-		System.out.println(time1);
+//		ArrayList<String> split= new ArrayList<String>();
+//		
+//		String[] words = duration1.split("·");
+//		
+//		
+//		Thread.sleep(2000);
+//		System.out.println(words.length);
+//		
+//		String time=words[2];
+//		System.out.println(time);
+//		
+//		String[] words1 = duration2.split("·");
+//		String time1=words1[2];
+//		System.out.println(time1);
 		
 	}
 	
