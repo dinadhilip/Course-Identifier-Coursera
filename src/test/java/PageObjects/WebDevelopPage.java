@@ -104,9 +104,13 @@ public class WebDevelopPage extends HomePage{
 		String duration2=duration.get(1).getText();
 		System.out.println(duration2);
 		
-		Thread.sleep(1000);
+		Thread.sleep(3000);
 		
 		String[] words = duration1.split("·");
+		
+		Thread.sleep(2000);
+		System.out.println(words.length);
+		
 		String time=words[2];
 		System.out.println(time);
 		
