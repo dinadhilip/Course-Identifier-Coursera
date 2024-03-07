@@ -57,7 +57,7 @@ public class WebDevelopPage extends HomePage{
 		
 		Thread.sleep(5000);
 		
-		List<WebElement> Courses = driver.findElements(By.xpath("//*[@class='cds-CommonCard-title css-1sktkql']"));
+		List<WebElement> Courses = driver.findElements(By.xpath("//*[@class='cds-CommonCard-title css-6ecy9b']"));
 		
 		String course1=Courses.get(0).getText();
 		System.out.println(course1);
