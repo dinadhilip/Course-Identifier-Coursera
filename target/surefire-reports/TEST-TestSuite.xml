@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="150.351" tests="21" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="119.739" tests="21" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\2303752\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\2303752\AppData\Local\Temp\14\surefire4913525715535583822\surefirebooter-20240307132732427_3.jar C:\Users\2303752\AppData\Local\Temp\14\surefire4913525715535583822 2024-03-07T13-27-31_222-jvmRun1 surefire-20240307132732427_1tmp surefire_0-20240307132732427_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\2303752\AppData\Local\Temp\14\surefire4685716274209685763\surefirebooter-20240307143934722_3.jar C:\Users\2303752\AppData\Local\Temp\14\surefire4685716274209685763 2024-03-07T14-39-33_982-jvmRun1 surefire-20240307143934722_1tmp surefire_0-20240307143934722_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\2303752\eclipse-workspace\CourcesIdentifier\target\test-classes;C:\Users\2303752\eclipse-workspace\CourcesIdentifier\target\classes;C:\Users\2303752\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\2303752\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2303752\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\2303752\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\2303752\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\2303752\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\2303752\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\2303752\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\2303752\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\2303752\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\2303752\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\2303752\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\2303752\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\2303752\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\2303752\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\2303752\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\2303752\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\2303752\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\2303752\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2303752\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\2303752\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\2303752\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\2303752\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\2303752\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\2303752\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\2303752\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\2303752\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\2303752\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\2303752\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\2303752\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\2303752\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\2303752\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\2303752\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\2303752\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\2303752\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\2303752\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\2303752\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\2303752\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\2303752\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\2303752\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\2303752\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\2303752\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\2303752\.m2\repository\org\seleniumhq\selenium\selenium-java\4.17.0\selenium-java-4.17.0.jar;C:\Users\2303752\.m2\repository\org\seleniumhq\selenium\selenium-api\4.17.0\selenium-api-4.17.0.jar;C:\Users\2303752\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.17.0\selenium-chrome-driver-4.17.0.jar;C:\Users\2303752\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2303752\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.17.0\selenium-chromium-driver-4.17.0.jar;C:\Users\2303752\.m2\repository\org\seleniumhq\selenium\selenium-json\4.17.0\selenium-json-4.17.0.jar;C:\Users\2303752\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.17.0\selenium-manager-4.17.0.jar;C:\Users\2303752\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.17.0\selenium-devtools-v119-4.17.0.jar;C:\Users\2303752\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.17.0\selenium-devtools-v120-4.17.0.jar;C:\Users\2303752\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.17.0\selenium-devtools-v121-4.17.0.jar;C:\Users\2303752\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.17.0\selenium-devtools-v85-4.17.0.jar;C:\Users\2303752\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.17.0\selenium-edge-driver-4.17.0.jar;C:\Users\2303752\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.17.0\selenium-firefox-driver-4.17.0.jar;C:\Users\2303752\.m2\repository\org\seleniumhq\selenium\selenium-http\4.17.0\selenium-http-4.17.0.jar;C:\Users\2303752\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2303752\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.17.0\selenium-ie-driver-4.17.0.jar;C:\Users\2303752\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.17.0\selenium-remote-driver-4.17.0.jar;C:\Users\2303752\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\2303752\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\2303752\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2303752\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2303752\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\2303752\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\2303752\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\2303752\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\2303752\.m2\repository\io\opentelemetry\opentelemetry-api\1.34.1\opentelemetry-api-1.34.1.jar;C:\Users\2303752\.m2\repository\io\opentelemetry\opentelemetry-context\1.34.1\opentelemetry-context-1.34.1.jar;C:\Users\2303752\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.34.1\opentelemetry-exporter-logging-1.34.1.jar;C:\Users\2303752\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.34.1\opentelemetry-sdk-common-1.34.1.jar;C:\Users\2303752\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.34.1\opentelemetry-sdk-extension-autoconfigure-spi-1.34.1.jar;C:\Users\2303752\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.34.1\opentelemetry-sdk-extension-autoconfigure-1.34.1.jar;C:\Users\2303752\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.34.1-alpha\opentelemetry-api-events-1.34.1-alpha.jar;C:\Users\2303752\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.34.1\opentelemetry-sdk-trace-1.34.1.jar;C:\Users\2303752\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.34.1\opentelemetry-sdk-1.34.1.jar;C:\Users\2303752\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.34.1\opentelemetry-sdk-metrics-1.34.1.jar;C:\Users\2303752\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.34.1-alpha\opentelemetry-extension-incubator-1.34.1-alpha.jar;C:\Users\2303752\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.34.1\opentelemetry-sdk-logs-1.34.1.jar;C:\Users\2303752\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\2303752\.m2\repository\org\seleniumhq\selenium\selenium-os\4.17.0\selenium-os-4.17.0.jar;C:\Users\2303752\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\2303752\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.17.0\selenium-safari-driver-4.17.0.jar;C:\Users\2303752\.m2\repository\org\seleniumhq\selenium\selenium-support\4.17.0\selenium-support-4.17.0.jar;C:\Users\2303752\.m2\repository\org\apache\poi\poi\5.2.4\poi-5.2.4.jar;C:\Users\2303752\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\2303752\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2303752\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2303752\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\2303752\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;C:\Users\2303752\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.0\log4j-api-2.23.0.jar;C:\Users\2303752\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.22.1\log4j-slf4j-impl-2.22.1.jar;C:\Users\2303752\.m2\repository\org\slf4j\slf4j-api\2.0.11\slf4j-api-2.0.11.jar;C:\Users\2303752\.m2\repository\org\slf4j\slf4j-simple\2.0.11\slf4j-simple-2.0.11.jar;C:\Users\2303752\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\2303752\.m2\repository\org\apache\poi\poi-ooxml\5.2.4\poi-ooxml-5.2.4.jar;C:\Users\2303752\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.4\poi-ooxml-lite-5.2.4.jar;C:\Users\2303752\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\2303752\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\2303752\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\2303752\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\2303752\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\2303752\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\2303752\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\2303752\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\2303752\AppData\Local\Temp\14\surefire4913525715535583822\surefirebooter-20240307132732427_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\2303752\AppData\Local\Temp\14\surefire4685716274209685763\surefirebooter-20240307143934722_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.9+9"/>
@@ -58,56 +58,40 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="courseSearch" classname="TestCases.MainTestClass" time="13.667">
-    <system-err><![CDATA[Mar 07, 2024 1:27:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="courseSearch" classname="TestCases.MainTestClass" time="13.372">
+    <system-err><![CDATA[Mar 07, 2024 2:39:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 122, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 122
 ]]></system-err>
   </testcase>
-  <testcase name="pageInfo" classname="TestCases.MainTestClass" time="5.399">
+  <testcase name="pageInfo" classname="TestCases.MainTestClass" time="5.24">
     <system-out><![CDATA[1,048 results for "web development courses"
 ]]></system-out>
   </testcase>
-  <testcase name="languageFilter" classname="TestCases.MainTestClass" time="0.841"/>
-  <testcase name="levelFilter" classname="TestCases.MainTestClass" time="0.358"/>
-  <testcase name="courseResult" classname="TestCases.MainTestClass" time="15.125">
-    <failure message="Index 0 out of bounds for length 0" type="java.lang.IndexOutOfBoundsException"><![CDATA[java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
-	at java.base/java.util.Objects.checkIndex(Objects.java:361)
-	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at PageObjects.WebDevelopPage.CourseName(WebDevelopPage.java:62)
-	at TestCases.MainTestClass.courseResult(MainTestClass.java:63)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-]]></failure>
+  <testcase name="languageFilter" classname="TestCases.MainTestClass" time="0.397"/>
+  <testcase name="levelFilter" classname="TestCases.MainTestClass" time="0.264"/>
+  <testcase name="courseResult" classname="TestCases.MainTestClass" time="9.354">
+    <system-out><![CDATA[Python for Data Science, AI & Development
+Meta Front-End Developer
+Python for Data Science, AI & Development
+Meta Front-End Developer
+Introduction to Web Development
+IBM Full Stack Software Developer
+Introduction to Web Development with HTML, CSS, JavaScript
+Introduction to Front-End Development
+Learn JavaScript
+Introduction to HTML5
+Introduction to Back-End Development
+Learn HTML and CSS
+IBM Data Analyst
+Internet History, Technology, and Security
+]]></system-out>
   </testcase>
-  <testcase name="courseRating" classname="TestCases.MainTestClass" time="4.062">
+  <testcase name="courseRating" classname="TestCases.MainTestClass" time="4.075">
     <system-out><![CDATA[4.6
 4.7
 ]]></system-out>
   </testcase>
-  <testcase name="courseDuration" classname="TestCases.MainTestClass" time="5.108">
+  <testcase name="courseDuration" classname="TestCases.MainTestClass" time="5.074">
     <system-out><![CDATA[12
 Beginner · Course · 1 - 3 Months
 Beginner · Professional Certificate · 3 - 6 Months
@@ -115,19 +99,19 @@ Beginner · Professional Certificate · 3 - 6 Months
  3 - 6 Months
 ]]></system-out>
   </testcase>
-  <testcase name="clearInput" classname="TestCases.MainTestClass" time="3.262"/>
-  <testcase name="SendInput" classname="TestCases.MainTestClass" time="10.963"/>
-  <testcase name="LanguageFilter" classname="TestCases.MainTestClass" time="1.619"/>
-  <testcase name="LanguageResult" classname="TestCases.MainTestClass" time="1.102">
+  <testcase name="clearInput" classname="TestCases.MainTestClass" time="3.126"/>
+  <testcase name="SendInput" classname="TestCases.MainTestClass" time="10.487"/>
+  <testcase name="LanguageFilter" classname="TestCases.MainTestClass" time="1.389"/>
+  <testcase name="LanguageResult" classname="TestCases.MainTestClass" time="1.052">
     <system-out><![CDATA[212 results for "Language Learning"
 ]]></system-out>
   </testcase>
-  <testcase name="ClickShowMore" classname="TestCases.MainTestClass" time="3.304"/>
-  <testcase name="languagecount" classname="TestCases.MainTestClass" time="0.007">
+  <testcase name="ClickShowMore" classname="TestCases.MainTestClass" time="3.239"/>
+  <testcase name="languagecount" classname="TestCases.MainTestClass" time="0.002">
     <system-out><![CDATA[38
 ]]></system-out>
   </testcase>
-  <testcase name="languagelist" classname="TestCases.MainTestClass" time="13.702">
+  <testcase name="languagelist" classname="TestCases.MainTestClass" time="9.114">
     <system-out><![CDATA[Chinese (China) (172)
 Spanish (170)
 French (159)
@@ -137,7 +121,7 @@ Portuguese (Brazil) (158)
 Swedish (158)
 ]]></system-out>
   </testcase>
-  <testcase name="languageLevellist" classname="TestCases.MainTestClass" time="0.692">
+  <testcase name="languageLevellist" classname="TestCases.MainTestClass" time="0.462">
     <system-out><![CDATA[30
 Beginner (80)
 Intermediate (75)
@@ -145,19 +129,19 @@ Advanced (7)
 Mixed (50)
 ]]></system-out>
   </testcase>
-  <testcase name="navigateHome" classname="TestCases.MainTestClass" time="11.923"/>
-  <testcase name="navigateIndustry" classname="TestCases.MainTestClass" time="12.194"/>
-  <testcase name="Scroll" classname="TestCases.MainTestClass" time="3.091"/>
-  <testcase name="FillFormDetails" classname="TestCases.MainTestClass" time="5.571">
+  <testcase name="navigateHome" classname="TestCases.MainTestClass" time="8.933"/>
+  <testcase name="navigateIndustry" classname="TestCases.MainTestClass" time="10.318"/>
+  <testcase name="Scroll" classname="TestCases.MainTestClass" time="3.067"/>
+  <testcase name="FillFormDetails" classname="TestCases.MainTestClass" time="3.768">
     <system-out><![CDATA[Dhilipdinadhilip.com8876545654developer
 Form DATA Filled
 ]]></system-out>
   </testcase>
-  <testcase name="SubmitForm" classname="TestCases.MainTestClass" time="1.123">
+  <testcase name="SubmitForm" classname="TestCases.MainTestClass" time="1.068">
     <system-out><![CDATA[DataEnteres
 ]]></system-out>
   </testcase>
-  <testcase name="GetErrorMsg" classname="TestCases.MainTestClass" time="1.072">
+  <testcase name="GetErrorMsg" classname="TestCases.MainTestClass" time="1.054">
     <system-out><![CDATA[Must be valid email.
 example@yourdomain.com
 ]]></system-out>

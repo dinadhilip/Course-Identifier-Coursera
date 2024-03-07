@@ -8,8 +8,12 @@
       <class name="TestCases.MainTestClass">
         <methods>
           <include name="setup"/>
+          <include name="SubmitForm"/>
           <include name="tearDown"/>
-          <include name="courseResult"/>
+          <include name="navigateIndustry"/>
+          <include name="FillFormDetails"/>
+          <include name="GetErrorMsg"/>
+          <include name="Scroll"/>
         </methods>
       </class> <!-- TestCases.MainTestClass -->
     </classes>

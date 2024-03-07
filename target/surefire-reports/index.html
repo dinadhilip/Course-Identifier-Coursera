@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">21 methods, 1 failed,   20 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="courseResult">courseResult</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">21 methods,   21 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -172,6 +158,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="courseResult">courseResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="TestCases.MainTestClass" class="method navigator-link" hash-for-method="courseSearch">courseSearch</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -227,36 +218,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">TestCases.MainTestClass</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="courseResult">
-                  </a> <!-- courseResult -->
-                  <span class="method-name">courseResult</span>
-                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
-	at java.base/java.util.Objects.checkIndex(Objects.java:361)
-	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at PageObjects.WebDevelopPage.CourseName(WebDevelopPage.java:62)
-	at TestCases.MainTestClass.courseResult(MainTestClass.java:63)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-... Removed 17 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -338,6 +299,13 @@
                   <a name="courseRating">
                   </a> <!-- courseRating -->
                   <span class="method-name">courseRating</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="courseResult">
+                  </a> <!-- courseResult -->
+                  <span class="method-name">courseResult</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -585,94 +553,94 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(21);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'courseResult')
+data.setCell(0, 1, 'courseSearch')
 data.setCell(0, 2, 'TestCases.MainTestClass')
-data.setCell(0, 3, 15084);
+data.setCell(0, 3, 13371);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'languagelist')
+data.setCell(1, 1, 'SendInput')
 data.setCell(1, 2, 'TestCases.MainTestClass')
-data.setCell(1, 3, 13701);
+data.setCell(1, 3, 10487);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'courseSearch')
+data.setCell(2, 1, 'navigateIndustry')
 data.setCell(2, 2, 'TestCases.MainTestClass')
-data.setCell(2, 3, 13576);
+data.setCell(2, 3, 10317);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'navigateIndustry')
+data.setCell(3, 1, 'courseResult')
 data.setCell(3, 2, 'TestCases.MainTestClass')
-data.setCell(3, 3, 12194);
+data.setCell(3, 3, 9355);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'navigateHome')
+data.setCell(4, 1, 'languagelist')
 data.setCell(4, 2, 'TestCases.MainTestClass')
-data.setCell(4, 3, 11922);
+data.setCell(4, 3, 9115);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'SendInput')
+data.setCell(5, 1, 'navigateHome')
 data.setCell(5, 2, 'TestCases.MainTestClass')
-data.setCell(5, 3, 10963);
+data.setCell(5, 3, 8931);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'FillFormDetails')
+data.setCell(6, 1, 'pageInfo')
 data.setCell(6, 2, 'TestCases.MainTestClass')
-data.setCell(6, 3, 5570);
+data.setCell(6, 3, 5240);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'pageInfo')
+data.setCell(7, 1, 'courseDuration')
 data.setCell(7, 2, 'TestCases.MainTestClass')
-data.setCell(7, 3, 5399);
+data.setCell(7, 3, 5073);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'courseDuration')
+data.setCell(8, 1, 'courseRating')
 data.setCell(8, 2, 'TestCases.MainTestClass')
-data.setCell(8, 3, 5108);
+data.setCell(8, 3, 4076);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'courseRating')
+data.setCell(9, 1, 'FillFormDetails')
 data.setCell(9, 2, 'TestCases.MainTestClass')
-data.setCell(9, 3, 4095);
+data.setCell(9, 3, 3768);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'ClickShowMore')
 data.setCell(10, 2, 'TestCases.MainTestClass')
-data.setCell(10, 3, 3305);
+data.setCell(10, 3, 3238);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'clearInput')
 data.setCell(11, 2, 'TestCases.MainTestClass')
-data.setCell(11, 3, 3261);
+data.setCell(11, 3, 3125);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'Scroll')
 data.setCell(12, 2, 'TestCases.MainTestClass')
-data.setCell(12, 3, 3090);
+data.setCell(12, 3, 3067);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'LanguageFilter')
 data.setCell(13, 2, 'TestCases.MainTestClass')
-data.setCell(13, 3, 1618);
+data.setCell(13, 3, 1389);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'SubmitForm')
 data.setCell(14, 2, 'TestCases.MainTestClass')
-data.setCell(14, 3, 1122);
+data.setCell(14, 3, 1064);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'LanguageResult')
+data.setCell(15, 1, 'GetErrorMsg')
 data.setCell(15, 2, 'TestCases.MainTestClass')
-data.setCell(15, 3, 1097);
+data.setCell(15, 3, 1052);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'GetErrorMsg')
+data.setCell(16, 1, 'LanguageResult')
 data.setCell(16, 2, 'TestCases.MainTestClass')
-data.setCell(16, 3, 1068);
+data.setCell(16, 3, 1050);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'languageFilter')
+data.setCell(17, 1, 'languageLevellist')
 data.setCell(17, 2, 'TestCases.MainTestClass')
-data.setCell(17, 3, 838);
+data.setCell(17, 3, 461);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'languageLevellist')
+data.setCell(18, 1, 'languageFilter')
 data.setCell(18, 2, 'TestCases.MainTestClass')
-data.setCell(18, 3, 695);
+data.setCell(18, 3, 396);
 data.setCell(19, 0, 19)
 data.setCell(19, 1, 'levelFilter')
 data.setCell(19, 2, 'TestCases.MainTestClass')
-data.setCell(19, 3, 358);
+data.setCell(19, 3, 264);
 data.setCell(20, 0, 20)
 data.setCell(20, 1, 'languagecount')
 data.setCell(20, 2, 'TestCases.MainTestClass')
-data.setCell(20, 3, 1);
+data.setCell(20, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -705,93 +673,91 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">courseSearch</span>
-                <span class="method-start">24694 ms</span>
+                <span class="method-start">17249 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">pageInfo</span>
-                <span class="method-start">38872 ms</span>
+                <span class="method-start">30912 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">languageFilter</span>
-                <span class="method-start">44480 ms</span>
+                <span class="method-start">36302 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">levelFilter</span>
-                <span class="method-start">45475 ms</span>
+                <span class="method-start">36831 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">courseResult</span>
-                <span class="method-start">46044 ms</span>
+                <span class="method-start">37231 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">courseRating</span>
-                <span class="method-start">61136 ms</span>
+                <span class="method-start">46747 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">courseDuration</span>
-                <span class="method-start">65474 ms</span>
+                <span class="method-start">50979 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">clearInput</span>
-                <span class="method-start">70845 ms</span>
+                <span class="method-start">56199 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SendInput</span>
-                <span class="method-start">74344 ms</span>
+                <span class="method-start">59472 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">LanguageFilter</span>
-                <span class="method-start">85512 ms</span>
+                <span class="method-start">70141 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">LanguageResult</span>
-                <span class="method-start">87366 ms</span>
+                <span class="method-start">71692 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ClickShowMore</span>
-                <span class="method-start">88678 ms</span>
+                <span class="method-start">72883 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">languagecount</span>
-                <span class="method-start">92330 ms</span>
+                <span class="method-start">76324 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">languagelist</span>
-                <span class="method-start">92647 ms</span>
+                <span class="method-start">76447 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">languageLevellist</span>
-                <span class="method-start">106570 ms</span>
+                <span class="method-start">85729 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">navigateHome</span>
-                <span class="method-start">107525 ms</span>
+                <span class="method-start">86359 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">navigateIndustry</span>
-                <span class="method-start">119794 ms</span>
+                <span class="method-start">95741 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Scroll</span>
-                <span class="method-start">132330 ms</span>
+                <span class="method-start">106442 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">FillFormDetails</span>
-                <span class="method-start">135862 ms</span>
+                <span class="method-start">109766 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SubmitForm</span>
-                <span class="method-start">141690 ms</span>
+                <span class="method-start">113679 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">GetErrorMsg</span>
-                <span class="method-start">143226 ms</span>
+                <span class="method-start">114952 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">144487 ms</span>
+                <span class="method-start">116128 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
